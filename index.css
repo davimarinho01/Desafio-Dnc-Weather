@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@media (min-width:1310px){
+    
+
+*{
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#F2F2F2;
+}
+
+/*--------------- HEADER/NAVBAR ---------------    */
+
+    header{
+        display: block;
+        position: fixed;
+        width: 100%;
+        background-color: #0C70F2;
+        padding: 1em;
+        box-shadow: 0px 1px 5px gray;
+        z-index: 999;
+        
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1em;
+        padding-right: 1em;
+        color: #FFFFFF;
+        
+    }
+
+    nav > h1 {
+        font-size: 1.5em;
+        font-weight: 800;
+    }
+
+    .links{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .links > li {
+        padding-right: 1em;
+        list-style: none;
+        
+    }
+
+    .links > li > a {
+        font-size: 1em;
+        font-weight: 800;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .links > li > a:hover{
+        color: #3d3d3c;
+    }
+
+
+/*--------------- SLOGAN ---------------    */
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5%;
+    }
+
+
+    .slogan {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .mainText {
+        font-size: 2em;
+        font-weight: 800;
+        padding-top: 1em;
+    }
+
+    .img{
+        width: 8em;
+        padding-left: 2em;
+    }
+
+/*--------------- FORMULÁRIO ---------------    */
+    .card{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: auto;
+        height: auto;
+        background-color: #FFFFFF ;
+        margin-top: 10%;
+        padding: 5em;
+        border-radius: 30px;
+        align-items: left;
+        box-shadow: 1px 1px 5px gray;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding-bottom: 1.5em;
+    }
+    label{
+        padding-bottom: .5em;
+    }
+    input{
+        padding: 1em;
+        background-color: #F2F2F2;
+        border: none;
+        border-radius: 10px;
+        font-weight: 400;
+        outline: none;
+    }
+
+    button{
+        cursor: pointer;
+        background-color: #0C70F2;
+        padding: 1em;
+        margin-top: 1em;
+        border: none;
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-size: 1em;
+        font-weight: 800;
+        box-shadow: 1px 1px 5px rgb(87, 86, 86);
+    }
+
+    button:hover{
+        translate: 0px -5px;
+        transition-duration: 1s;
+    }
+
+/*--------------- INFO ---------------    */
+
+.cep{
+    margin-top: 20%;
+}
+
+.table{
+    display: flex;
+    font-size: .8em;
+}
+
+.table > h3 {
+    padding: 0 40px 0 0;
+}
+
+#local{
+    color: #FFFFFF;
+    font-size: .8em;
+    font-weight: 800;
+}
+
+#info{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: .8em;
+    font-weight: 800;
+}
+
+
+.prev{
+    display: flex;
+    margin-top: 2em;
+    height: 2em;
+    padding: .5em;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin-bottom: 20%;
+}
+
+#previsao{
+    margin: 0;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+#refresh{
+    padding: 1em;
+    margin-bottom: 5%;
+}
+#refresh >a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+    background-color: #0C70F2;
+}
+footer > a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+}
